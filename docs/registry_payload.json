@@ -1,0 +1,46 @@
+{
+  "description": [],
+  "globalAssetId": {
+    "value": [
+      "urn:uuid:e1736bf1-2633-4243-8f23-c981b52f5006"
+    ]
+  },
+  "idShort": "BPNL00000003B2OM_urn:uuid:e1736bf1-2633-4243-8f23-c981b52f5006",
+  "identification": "urn:uuid:1a710858-bc35-42d9-9572-65fc8a1618c3",
+  "specificAssetIds": [
+    {
+      "value": "BPNL00000003B2OM",
+      "key": "manufacturerId"
+    },
+    {
+      "value": "1O222E8-43",
+      "key": "manufacturerPartId"
+    },
+    {
+      "value": "NO-250303770396089450130911",
+      "key": "partInstanceId"
+    }
+  ],
+  "submodelDescriptors": [
+    {
+      "description": [],
+      "idShort": "SingleLevelUsageAsBuilt",
+      "identification": "urn:uuid:b8cebd53-6b11-4f77-87c7-5285302ef153",
+      "semanticId": {
+        "value": [
+          "urn:bamm:io.catenax.single_level_usage_as_built:1.0.1#SingleLevelUsageAsBuilt"
+        ]
+      },
+      "endpoints": [
+        {
+          "interface": "SUBMODEL-1.0RC02",
+          "protocolInformation": {
+            "endpointAddress": "https://edc-ocp0900009.apps.c7von4sy.westeurope.aroapp.io/urn:uuid:e1736bf1-2633-4243-8f23-c981b52f5006-urn:uuid:b8cebd53-6b11-4f77-87c7-5285302ef153/submodel?content=value&extent=withBlobValue",
+            "endpointProtocol": "IDS/ECLIPSE DATASPACE CONNECTOR",
+            "endpointProtocolVersion": "0.0.1"
+          }
+        }
+      ]
+    }
+  ]
+}
