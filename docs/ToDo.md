@@ -33,13 +33,10 @@ E.g.
 3. For each submodel
 -> import into EDC as Asset, PolicyDefition, ContractDefinition
 -> import into aas registry as shell (containing these sub models)
--> 
+
 
 Asset:
 - CatenaX ID is first part of asset ID. Second part is random UUID
-- 
-
-
 
 Payload for registry:
 
@@ -62,5 +59,5 @@ registry_url="https://semantics.int.demo.catena-x.net/registry/registry"
 token_url="https://centralidp.int.demo.catena-x.net/auth/realms/CX-Central/protocol/openid-connect/token"
 
 send aas payload with POST to 
-curl --location --request POST "${registry_url}/shell-descriptors" \    --silent --output /dev/null --write-out %{http_code} \    --header "Content-Type: application/json" \    --header "Authorization: Bearer ${access_token}" \    -d @"$/registry.json"
+curl --location --request POST "${registry_url}/shell-descriptors" \ --silent --output /dev/null --write-out %{http_code} \ --header "Content-Type: application/json" \ --header "Authorization: Bearer ${access_token}" \ -d @"$/registry.json"
 
