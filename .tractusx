@@ -1,1 +1,7 @@
-
+product: "testdata-provider"
+leadingRepository: "https://github.com/eclipse-tractusx/testdata-provider"
+repoCategory: "support"
+repositories:
+  - name: "testdata-provider"
+    usage: "Test data provider is a small service, that allows easy integration of data provided by the TestDataGenerator."
+    url: "https://github.com/eclipse-tractusx/testdata-provider"
