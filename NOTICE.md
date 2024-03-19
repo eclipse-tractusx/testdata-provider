@@ -35,7 +35,17 @@ in the GitHub organization https://github.com/eclipse-tractusx:
 
 This project leverages the following third party content.
 
-See DEPENDENCIES file.
+__`requests` Python library__
+
+Version: `2.31.0`
+
+Source: https://github.com/psf/requests/tree/v2.31.0
+
+Package info: https://pypi.org/project/requests/2.31.0/
+
+License: [Apache-2.0](https://github.com/psf/requests/blob/v2.31.0/LICENSE)
+
+Eclipse Foundation IPLab Issue: [#13074](https://gitlab.eclipse.org/eclipsefdn/emo-team/iplab/-/issues/13074)
 
 ## Cryptography
 
