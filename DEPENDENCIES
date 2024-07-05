@@ -1,0 +1,5 @@
+pypi/pypi/-/certifi/2024.7.4, MPL-2.0, approved, clearlydefined
+pypi/pypi/-/charset-normalizer/3.3.2, MIT AND (LGPL-2.1-only AND MIT) AND LGPL-2.1-only AND CC-BY-SA-3.0, approved, #13067
+pypi/pypi/-/idna/3.7, BSD-3-Clause AND Unicode-TOU, approved, #14864
+pypi/pypi/-/requests/2.32.3, Apache-2.0 AND MIT AND Apache-2.0, approved, #14884
+pypi/pypi/-/urllib3/2.2.2, MIT AND LicenseRef-Python, approved, #13081
